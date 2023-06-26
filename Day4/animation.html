@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style type="text/css";>
+        div{
+            width: 100px;
+            height: 100px;
+            background-color: red;
+            position: relative;
+            animation-name: demo;
+            animation-duration: 10s;
+            animation-iteration-count: infinite;
+        }
+        @keyframes demo{
+            0%{background-color: red; left: 0px; top: 0px;}
+            25%{background-color: palegreen;left:200px;top:0px;transform:rotate(180deg);transition: 3s;}
+            50%{background-color: goldenrod;left: 200px;top: 200px;transform: rotate(360deg);transition: 3s;}
+            75%{background-color: green;left:0px;top: 200px;transform: rotate(540deg);transition: 3s;}
+            100%{background-color: red;left:0px;top: 0px;transform: rotate(720deg);transition: 3s;}
+            
+        }
+    </style>
+</head>
+<body>
+    <h1>css Animation</h1>
+    <div></div>
+    
+</body>
+</html>

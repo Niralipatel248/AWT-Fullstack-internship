@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>transform</title>
+    <style type="text/css">
+    div{
+        height: 200px;
+        width: 200px;
+        transition: 3s;
+        font-size: 25px;
+        font-weight: bold;
+        color: #c0a0a0;
+        background-color: blueviolet;
+    }
+    #translateDiv:hover
+    {
+        transform: translate(100px,100px);
+        background-color: blueviolet;
+        color: rgb(255,153,0);
+    }
+    #RotateDiv:hover{
+        transform: rotate(90deg);
+        background-color: blueviolet;
+        color: rgb(255,153,0);
+    }
+    #RotateDiv3D:hover{
+        transform: rotate3D(1,1,0,360deg);
+        background-color: blueviolet;
+        color: rgb(255,153,0);
+    }
+    #SkewDiv:hover{
+        transform: skew(45deg);
+        background-color: blueviolet;
+        color: rgb(255,153,0);
+    }
+    #ScaleDiv:hover{
+        transform: scale(0.5,1.5);
+         background-color: blueviolet;
+         color: rgb(255,153,0);
+    }
+    #OpacityDiv:hover{
+        background-color: blueviolet;
+        opacity: 0.8;
+    }
+    #RGBADiv:hover{
+        background-color: rgba(93,25,162);
+    }
+    #BoxShadowDiv:hover{
+        box-shadow: 0px 0px 30px rgb(0,238,255);
+    }
+    #TextShadowDiv:hover{
+        text-shadow: 3px 3px 3px rgb(119,255,0);
+    }
+    #BorderRadiusDiv:hover{
+        border-radius: 40%;
+    }
+    #OverflowDiv(Overflow:auto;)
+    </style>
+</head>
+<body>
+    <div id="translateDiv">Translate</div><hr/>
+    <div id="RotateDiv">Rotate</div><hr/>
+    <div id="RotateDiv3D">Rotate3d</div><hr/>
+    <div id="SkewDiv">skew</div><hr/>
+    <div id="ScaleDiv">Scale</div><hr/>
+    <div id="OpacityDiv">Opacity</div><hr/>
+    <div id="RGBADiv">RGBA</div><hr/>
+    <div id="BoxShadowDiv">Box-Shadow</div><hr/>
+    <div id="TextShadowDiv">Text-Shadow</div><hr/>
+    <div id="BorderRadiusDiv">Border-Radius</div><hr/>
+    <div id="Overflow">Overflow Overflow Overflow</div>
+</body>
+</html>
